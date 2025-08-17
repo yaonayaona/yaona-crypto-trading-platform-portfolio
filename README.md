@@ -58,6 +58,29 @@
 
 市場の急変時には、Webダッシュボードから**「緊急停止」**ボタンを押すことで、全てのポジションを即座に手仕舞いし、新規エントリーを停止させる遠隔操作も可能です。
 
+### ギャラリー：Discordによるリアルタイムな情報連携
+
+本システムは、取引のあらゆるフェーズでDiscordと連携し、リッチな通知を通じてリアルタイムに状況を把握することができます。
+
+<table border="0">
+ <tr>
+    <td><img src="./assets/discord_01_candidate.png" alt="エントリー候補通知"></td>
+    <td><img src="./assets/discord_02_tpsl.png" alt="TP/SL決済通知"></td>
+ </tr>
+ <tr>
+    <td align="center"><b>1. エントリー候補の通知</b><br>Botが取引チャンスを見つけると、投入額やリスク設定と共に即座に通知します。</td>
+    <td align="center"><b>2. TP/SLによる決済報告</b><br>ポジションが決済されると、損益や保有時間などの詳細な結果がリアルタイムで報告されます。</td>
+ </tr>
+  <tr>
+    <td><img src="./assets/discord_03_report.png" alt="定期レポート"></td>
+    <td><img src="./assets/discord_04_watchdog.png" alt="死活監視"></td>
+ </tr>
+  <tr>
+    <td align="center"><b>3. ウォレット・ポジション定期レポート</b><br>現在の資産状況や保有ポジションのサマリが定期的に送られ、全体の状況を把握できます。</td>
+    <td align="center"><b>4. システム死活監視 (Watchdog)</b><br>各プロセスが正常に稼働しているか常時監視し、異常があれば即座にアラートが飛びます。</td>
+ </tr>
+</table>
+
 
 ### 🛠️ 技術スタック
 
